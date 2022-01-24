@@ -1,4 +1,4 @@
-{:paths "src"
+{:paths ["src"]
  :deps {org.clojure/clojure    {:mvn/version "1.8.0"}
         commons-net/commons-net  {:mvn/version "3.7.2"}
         me.raynes/fs {:mvn/version "1.4.6"}}
