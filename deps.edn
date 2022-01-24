@@ -1,8 +1,8 @@
 {:paths "src"
- :deps { commons-net/commons-net  {:mvn/version "3.7.2"}
+ :deps {org.clojure/clojure    {:mvn/version "1.8.0"}
+        commons-net/commons-net  {:mvn/version "3.7.2"}
         me.raynes/fs {:mvn/version "1.4.6"}}
 
-  ;  [[org.clojure/clojure "1.8.0"]
   ;:profiles {:test {:resource-paths ["test-resources"]
   ;                  :dependencies [[org.mockftpserver/MockFtpServer "2.7.1"]
   ;                                 [org.slf4j/slf4j-jdk14 "1.7.30"]
